@@ -1,0 +1,59 @@
+body,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,input{margin:0;padding:0; list-style:none; font-weight:normal;}
+b,i,em,a{text-decoration:none; font-style:normal;}
+@font-face{
+  font-family: "Broadway";
+  src:url('../fonts/broadw.ttf');
+}
+body{
+  min-width:640px;
+  background: url('../images/con-bg.jpg') ;
+  font-family:"Broadway";
+  font-size:2em;
+}
+.stock-show{
+  width:940px;
+  overflow:hidden;
+  background: black;
+  box-shadow: rgba(0, 0, 0, 0.270588) 0px 1px 3px 0px, rgb(220, 220, 220) 0px 1px 0px 0px, rgb(221, 221, 221) 0px -1px 0px 0px;
+  border-radius:6px;
+  overflow:hidden;
+  opacity:0.6;
+  margin:0 auto;
+  -webkit-transition:all .8s ease;
+  padding:50px 0 50px 50px;
+  background: url('../images/main-bg.JPG') repeat-x;
+  -webkit-transition:all 1.5s ease;
+}
+.stock-show:hover{
+  opacity:0.8;
+}
+
+.circle{
+  cursor:pointer;
+  width:245px;
+  height:245px;
+  border-radius:50%;
+  background: yellow;
+  text-align:center;
+  line-height:245px;
+  float:left;
+  margin-left:45px;
+  background: #fff;
+  box-shadow:0px 0px 34px #ccc inset;
+  -webkit-transition:-webkit-transform .8s ease;
+  position:relative;
+}
+.circle p{
+  width:100%;
+  font-size:0.5em;
+  text-align:center;
+  color:#ccc;
+  position:absolute;
+  top:40px;
+  left:50%;
+  margin-left:-122px;
+  letter-spacing:3px;
+}
+.circle:hover{
+  -webkit-transform:scale(1.1,1.1);
+}

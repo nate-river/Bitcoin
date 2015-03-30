@@ -1,14 +1,18 @@
 body,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,input{margin:0;padding:0; list-style:none; font-weight:normal;}
 b,i,em,a{text-decoration:none; font-style:normal;}
+
 @font-face{
   font-family: "Broadway";
   src:url('../fonts/broadw.ttf');
 }
 body{
   min-width:640px;
-  background: url('../images/con-bg.jpg') ;
+  background: url('../images/main-bg.png');
   font-family:"Broadway";
   font-size:2em;
+}
+.wrapper{
+  background:
 }
 .stock-show{
   width:940px;
@@ -17,15 +21,14 @@ body{
   box-shadow: rgba(0, 0, 0, 0.270588) 0px 1px 3px 0px, rgb(220, 220, 220) 0px 1px 0px 0px, rgb(221, 221, 221) 0px -1px 0px 0px;
   border-radius:6px;
   overflow:hidden;
-  opacity:0.6;
   margin:0 auto;
   -webkit-transition:all .8s ease;
   padding:50px 0 50px 50px;
-  background: url('../images/main-bg.JPG') repeat-x;
+  background: url('../images/market.png') repeat-x;
   -webkit-transition:all 1.5s ease;
 }
 .stock-show:hover{
-  opacity:0.8;
+  opacity:1;
 }
 
 .circle{
@@ -47,7 +50,7 @@ body{
   width:100%;
   font-size:0.5em;
   text-align:center;
-  color:#ccc;
+  color:#4f4c4c;
   position:absolute;
   top:40px;
   left:50%;

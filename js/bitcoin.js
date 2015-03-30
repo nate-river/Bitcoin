@@ -17,7 +17,7 @@ $(function(){
         this.makeConnection();
     }
     market.prototype.start = function(data){
-        if ( this.price[0] == undefined ){
+        if ( !this.price[0]){
             this.price[0] = data;
             this.price[1] = data;
         }else{
